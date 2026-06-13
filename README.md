@@ -1,14 +1,15 @@
 # LimitedNetwork
 
-Um bloqueador de dominios de anuncios para Android que funciona por meio de
-uma VPN local. O aplicativo intercepta consultas DNS e as bloqueia localmente 
-quando encontra pertence a uma rede de ads.
-
 <p align="center">
   <a href="https://github.com/luizgustavs/LimitedNetwork/releases/latest/download/LimitedNetwork-1.0.1.apk">
     <img alt="Baixar APK" src="https://img.shields.io/badge/Baixar_APK-ultima_versao-2563EB?style=for-the-badge&logo=android&logoColor=white">
   </a>
 </p>
+
+Um bloqueador de dominios de anuncios para Android que funciona por meio de
+uma VPN local. O aplicativo intercepta consultas DNS e as bloqueia localmente 
+quando pertence a uma rede de ads. Publicado aqui por que Play Store
+possui regras rígidas que não permitem publicar esse tipo de app por lá.
 
 ## Recursos
 
@@ -18,6 +19,10 @@ quando encontra pertence a uma rede de ads.
 - Exibe o estado da VPN e as consultas DNS recentes.
 - Encaminha consultas permitidas aos servidores DNS da rede, com fallback para
   Cloudflare (`1.1.1.1`) e Google (`8.8.8.8`).
+
+## Limitações
+- Não funciona em alguns apps como Youtube, Instagram e WhatsApp. Apps como os mencionados
+usam uma rede de conteúdo e anuncios integradas, portanto não há como filtrar.
 
 ## Requisitos
 
